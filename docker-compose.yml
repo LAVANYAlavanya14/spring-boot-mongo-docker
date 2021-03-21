@@ -1,6 +1,6 @@
 services:
   springappcont:
-    image: dockerwordnest/spring-boot-mongo:1
+    image: dockerwordnest/spring-boot-mongo:6
     ports:
     - 8080:8080
     networks:
