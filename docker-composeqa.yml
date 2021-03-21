@@ -1,0 +1,11 @@
+version: '3.1'
+services:
+  springappcont:
+    environment:
+    - MONGO_DB_HOSTNAME=mongo
+    - MONGO_DB_USERNAME=qa
+    - MONGO_DB_PASSWORD=qa@123
+  mongo:
+    environment:
+    - MONGO_INITDB_ROOT_USERNAME=qa
+    - MONGO_INITDB_ROOT_PASSWORD=qa@123
