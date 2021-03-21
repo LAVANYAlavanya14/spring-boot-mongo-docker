@@ -1,3 +1,4 @@
+version: '3.1'
 services:
   springappcont:
     image: dockerwordnest/spring-boot-mongo:6
